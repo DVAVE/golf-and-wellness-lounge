@@ -11,7 +11,7 @@ const Header = () => {
     <header className="fixed top-0 left-0 right-0 z-50 bg-background/95 backdrop-blur-sm border-b border-border">
       <nav className="container mx-auto px-4 py-4 flex items-center justify-between">
         <Link to="/" className="flex items-center">
-          <img src={logo} alt="Golf & Wellness Lounge" className="h-12 w-auto" />
+          <img src={logo} alt="Golf & Wellness Lounge" className="h-16 w-auto pl-4" />
         </Link>
         
         <ul className="hidden md:flex items-center gap-8 font-montserrat font-medium">
